@@ -11,4 +11,4 @@ permalink: /leetcode
 
 # Leetcode Index
 ## Array
-* [Remove Duplicates from Sorted Array](https://shaffron.github.io/leetcode/emove-duplicates-from-sorted-array)
+* [Remove Duplicates from Sorted Array](https://shaffron.github.io/leetcode/remove-duplicates-from-sorted-array)
