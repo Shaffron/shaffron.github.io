@@ -1,9 +1,10 @@
 PATH
   remote: .
   specs:
-    plainwhite (0.13)
-      jekyll (>= 3.7.3)
-      jekyll-seo-tag (>= 2.1.0)
+    just-the-docs (0.3.3)
+      jekyll (>= 3.8.5)
+      jekyll-seo-tag (~> 2.0)
+      rake (>= 12.3.1, < 13.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -54,7 +55,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.7)
-    rake (12.3.3)
+    rake (13.0.6)
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -66,14 +67,15 @@ GEM
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.8.0)
+    webrick (1.7.0)
 
 PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
-  bundler (> 1.16)
-  plainwhite!
-  rake (~> 12.0)
+  bundler (~> 2.3.5)
+  just-the-docs!
+  webrick (~> 1.7)
 
 BUNDLED WITH
    2.3.15
