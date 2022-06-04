@@ -2,8 +2,8 @@
 layout: default
 title: Home
 nav_order: 1
-description: "description area"
-permalink: /home
+description: "home"
+permalink: /
 ---
 
 # Title

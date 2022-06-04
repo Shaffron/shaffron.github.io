@@ -17,7 +17,7 @@ remote_theme: just-the-docs/just-the-docs
 
 title: Shaffron Dev Note
 description: Today I Learned
-baseurl: "/home" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://shaffron.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
