@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Introduce
 nav_order: 1
 description: "description area"
