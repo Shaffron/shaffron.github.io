@@ -11,7 +11,6 @@ permalink: /leetcode/remove-duplicates-from-sorted-array
  [Leetcode link](https://leetcode.com/explore/featured/card/top-interview-questions-easy/92/array/727/)
 
 ---
-
 # Interpretation
 * 주어진 배열은 오름차순으로 정렬되어 있음
 * 배열 내의 값들은 중복될 수 있음
@@ -24,13 +23,11 @@ permalink: /leetcode/remove-duplicates-from-sorted-array
   * 배열은 오름차순으로 정렬되어 있음
 
  ---
-
 # Idea
 * 배열을 순회하면서 현재 노드와 이전 노드의 값이 차이가 나는 경우를 체크하여 또 다른 배열에 담아둔다
 * 위 과정에서 또 다른 배열에 담아둔 항목들을 순회하면서 Input 으로 주어진 배열의 값을 앞에서부터 덮어씌운다
 
 ---
-
 # Implementation
 * My
 ````kotlin
