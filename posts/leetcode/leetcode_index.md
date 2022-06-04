@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Leetcode Index
+title: Leetcode
 nav_order: 2
 has_children: true
+has_toc: false
 description: "Leetcode Index"
 permalink: /leetcode
 ---

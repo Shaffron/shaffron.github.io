@@ -1,15 +1,16 @@
 ---
 layout: default
 title: Remove Duplicates from Sorted Array
-parent: Leetcode Index
+parent: Leetcode
 nav_order: 1
 description: "Leetcode - Remove Duplicates from Sorted Array"
 permalink: /leetcode/remove-duplicates-from-sorted-array
 ---
 
-> [leetcode link](https://leetcode.com/explore/featured/card/top-interview-questions-easy/92/array/727/)
+# Problem
+ [Leetcode link](https://leetcode.com/explore/featured/card/top-interview-questions-easy/92/array/727/)
 
-# 문제 해석
+# Interpretation
 * 주어진 배열은 오름차순으로 정렬되어 있음
 * 배열 내의 값들은 중복될 수 있음
 * 배열 내의 정수 중 Unique 한 값이 몇개인지 반환
@@ -44,12 +45,15 @@ class Solution {
 }
 ````
 
-* 어떤 빌런의 해법...
+* 참고해볼만한 해법
+ 
 ```kotlin
 class Solution {
   fun removeDuplicates(nums: IntArray): Int {
     var k = 0
     var checkedIndex = 1
+    
+    // Array 순회와 동시에 값 바꿔치기를 함으로써 1회 탐색으로 종료됨
     while (checkedIndex <= nums.size - 1) {
       if (nums[k] != nums[checkedIndex]) {
         k++
