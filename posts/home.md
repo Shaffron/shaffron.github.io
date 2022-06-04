@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Introduce
+title: Home
 nav_order: 1
 description: "description area"
-permalink: /
+permalink: /home
 ---
 
 # Title
