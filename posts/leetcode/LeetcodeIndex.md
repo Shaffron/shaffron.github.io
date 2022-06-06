@@ -12,6 +12,7 @@ permalink: /leetcode
 # Leetcode Index
 ## Array
 * [Remove Duplicates from Sorted Array](https://shaffron.github.io/leetcode/remove-duplicates-from-sorted-array)
+* [Rotate Image](https://shaffron.github.io/leetcode/rotate-image)
 
 ## String
 * [Reverse String](https://shaffron.github.io/leetcode/reverse-string)
