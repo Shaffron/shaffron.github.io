@@ -70,7 +70,6 @@ permalink: /leetcode/is-palindrome
         }
     }
   ````
-
 * Best
 ````kotlin
 class Solution {
@@ -89,7 +88,5 @@ class Solution {
         // palindrome if original and reversed are equal
         return original == reversed
     }
-
-
 }
 ````
