@@ -26,6 +26,7 @@ permalink: /leetcode/is-palindrome
   * 양쪽 끝에서 거리를 좁혀나가기 시작한 각각의 포인터가 서로 교차한 경우 반복문을 종료한다
 * 정수형 방식
   * input 으로 주어진 값을 10 으로 나눈 나머지 값을 새로운 변수에 다시 10의 배수로 곱하여 더한다
+
 ---
 
 # Implementation
